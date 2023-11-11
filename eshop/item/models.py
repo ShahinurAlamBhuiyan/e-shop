@@ -4,8 +4,9 @@ class Category(models.Model):
     name = models.CharField(max_length=255)
 
     class Meta:
-        verbose_name_plural = 'Categories'
+        ordering = ('name',) # ordering span name
+        verbose_name_plural = 'Categories'  # collection name spell
 
-    def __str__(self):
+    def __str__(self): # visualize items correctly to the admin dash 
         return self.name
 
