@@ -1,5 +1,5 @@
 # e-shop
-e-shop is an e-commerce web base site.  
+e-shop is an e-commerce website.  
 
 ## Tech
 + Django
